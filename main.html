@@ -8,7 +8,19 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<h2>Feedback Form</h2>
+	<label for="name">Name:<br></label>	
+	<input type="text" id="name" minlength="3" maxlength="50" required><br>
+   <lable for="portfolio">Portfolio:<br></lable>
+	<input type="url" required><br/>
+	<label for="favColor">Favourite Color:</label>
+	<input type="color" id="colorpicker" value="#0000ff"><br/><br/>
+	<label for="likeliness">Likeliness</label><br/>
+		<div class="slidecontainer">
+	  <input type="range" min="1" max="100" value="30" class="slider" id="myRange" id="likeliness" style="width:200px;height:30px;cursor:pointer">
+	</div>
+	<button style="margin-top:10px">Submit</button>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
